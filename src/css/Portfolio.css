@@ -1,0 +1,30 @@
+/*.img-link img{
+    position: relative;
+    height: 120px;
+    top: -80px;
+    left: -10px;
+    margin: 10px;
+    border-radius: 10%;
+}*/
+#Portfolio .carousel-inner img {
+    max-height: 50vh;
+    object-fit: cover;
+    background: #161515;
+    filter: grayscale(0%);
+    border-radius:calc(.25rem );   
+}
+#Portfolio .carousel {
+    position: relative;
+}
+#Portfolio .carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#Portfolio .carousel .overlay .container,
+#Portfolio .carousel .overlay .row{
+    height: 100%;
+}
