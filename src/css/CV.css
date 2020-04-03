@@ -1,0 +1,13 @@
+#cv img {
+    margin: auto;      
+}
+.CV{
+    max-height: 80vh;
+    object-fit: cover;
+    background: #161515;
+    filter: grayscale(80%);
+    border-radius:calc(.25rem );   
+}
+.CV:hover {
+    filter: grayscale(0%);      
+}

@@ -7,7 +7,7 @@
     border-radius: 10%;
 }*/
 #Portfolio .carousel-inner img {
-    max-height: 50vh;
+    max-height: 63vh;
     object-fit: cover;
     background: #161515;
     filter: grayscale(0%);

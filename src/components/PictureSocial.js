@@ -1,10 +1,10 @@
 import React from 'react';
 import me from '../img/me.jpg';
-import '../css/Picture_social.css';
+import '../css/PictureSocial.css';
 import Social from './Social';
 
 
-const Picture_social=()=>{
+const PictureSocial=()=>{
     return(
         <div id="profile" className="container">
         <div className="row">
@@ -13,7 +13,7 @@ const Picture_social=()=>{
                 <div id="v-card" className="card">            
                      {/*-- PROFILE PICTURE --*/}
                     <div className="right">
-                        <img alt="profile-image" className="m-4 mx-auto d-block profile-image" src={me}/>                                         
+                        <img alt="Duebnis L." className="m-4 mx-auto d-block profileImage" src={me}/>                                         
                         <div className="card-content">        
                             {/*-- NAME & STATUS --*/}
                             <div className="info-headings">
@@ -30,4 +30,4 @@ const Picture_social=()=>{
     </div> 
     );
 }
-export default Picture_social;
+export default PictureSocial;

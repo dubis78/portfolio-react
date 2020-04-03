@@ -8,10 +8,11 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import './index.css';
 import Top from './components/Top';
-import Picture_social from './components/Picture_social';
+import Picture_social from './components/PictureSocial';
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
 import Interest from './components/Interest';
+import CV from './components/CV';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Education/>
       <Portfolio/>
       <Interest/>
+      <CV/>
     </main>
     <footer>
 

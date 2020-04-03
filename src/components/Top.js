@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Top.css';
+import {Data} from '../utils/mocks/Data'
 
 const Top=()=>{
     return(
@@ -10,9 +11,11 @@ const Top=()=>{
                 <div className="collapse navbar-collapse" id="navbarTarget">
                     <div className="navbar-nav">
                         <ul>
-                            <li className="li-navbar"><a className="nav-item nav-link active" href="#profile">Profile</a></li>
-                            <li className="li-navbar"><a className="nav-item nav-link active" href="#education">Education</a></li>
-                            <li className="li-navbar"><a className="nav-item nav-link active" href="#Portfolio">Portfolio</a></li>                            
+                            {Data.navbarData.map((etiq,index)=>{
+                                return(
+                                <li key={`label${index}`} className="li-navbar"><a className="nav-item nav-link active" href={etiq.url}>{etiq.element}</a></li>
+                                );
+                            })}                           
                         </ul>
                     </div>
                 </div>
