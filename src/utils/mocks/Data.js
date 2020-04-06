@@ -26,23 +26,5 @@ export const Data={
             url:'#cv', 
         }
     ],
-    portfolioData:[
-        {
-           img:'img2',
-            url:'https://dubis78.github.io/tienda-f',
-        },
-        {
-           img:'img3',
-            url:'https://dubis78.github.io/formulario/Index.html', 
-        },
-        {
-           img:'img4',
-            url:'https://dubis78.github.io/Tribute-Page/Index.html', 
-        },
-        {
-           img:'img5',
-            url:'https://dubis78.github.io/Reto-1/', 
-        },       
-    ],
 }
 
