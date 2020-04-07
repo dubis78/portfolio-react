@@ -10,10 +10,9 @@ const Interest = () => {
                 {/*<!--INTEREST TEXT-->*/}
                 <div className="timeline-title text-secondary m-3">
                     <p>
-                        First of all I love music, country music is my favorite. Love watching
-                        football, movies and playing games with my buddies. I spend quite a lot of time
-                        in traveling and photography, these keeps me fresh for working environment.
-                        I also spend time volunteering at the Red Cross in London, UK each month.
+                        First of all I love music, go to the movies and playing games. Sometimes I spend quite a lot of time
+                        watching series, these keeps me fresh for working environment.
+                        I also spend time reading or studying something like German, English or something new.  
                     </p>
                 </div>
                 {/*<!--INTEREST ICONS-->*/}
@@ -35,15 +34,15 @@ const Interest = () => {
                     {/*<!--INTEREST ICON THREE-->*/}
                     <div className="col-md-2 col-sm-4 col-xs-6 box text-center">
                         <div className="interest-icon">
-                            <i className="fa fa-camera"></i>
-                            <span>Photography</span>
+                            <i className="fa fa-paw"></i>
+                            <span>Animals</span>
                         </div>
                     </div>
                     {/*<!--INTEREST ICON FOUR-->*/}
                     <div className="col-md-2 col-sm-4 col-xs-6 box text-center">
                         <div className="interest-icon-even">
-                            <i className="fa fa-futbol-o"></i>
-                            <span>Football</span>
+                            <i className="fa fa-book"></i>
+                            <span>Reading</span>
                         </div>
                     </div>
                     {/*<!--INTEREST ICON FIVE-->*/}

@@ -4,10 +4,10 @@ import '../css/Education.css';
 const Education=()=>{
     return(
         <div className="container" id="education">
-        <h4 className="text-uppercase text-center text-primary text-icon"><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/72/book-icon.png" alt="demo"/><b>Education</b></h4>
+        <h4 className="mb-5 text-uppercase text-center text-primary text-icon"><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/72/book-icon.png" alt="demo"/><b>Education</b></h4>
         <div className="row">
             <div className="col-12">
-                <div className="card-content">                            
+                <div className="card-content mt-5">                            
                     <h6 className="timeline-title text-secondary">Middle School</h6>                            
                     <div className="timeline-info text-secondary">
                         <h6>
